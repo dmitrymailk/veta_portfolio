@@ -487,8 +487,8 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 0em;
+  padding-bottom: 0em;
   clear: both;
   width: 100%;
   display: block;
@@ -787,6 +787,7 @@ body.offcanvas .colorlib-nav-toggle {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
+  min-height: 168px;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -1830,4 +1831,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.veta_skills {
+  min-height: 250px;
 }
