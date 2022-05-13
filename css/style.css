@@ -986,6 +986,16 @@ body.offcanvas .colorlib-nav-toggle {
   top: -22px;
   right: 0;
 }
+
+.progress-bar.color-suracuse{
+  background: #F76900;
+}
+.progress-bar.color-suracuse:after {
+  background: #F76900;
+}
+.progress-bar.color-suracuse span {
+  color: #F76900;
+}
 .progress-bar.color-1 {
   background: #2c98f0;
 }
@@ -1290,7 +1300,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 }
 .project:hover .desc {
-  opacity: 0.9;
+  opacity: 0.98;
 }
 .project:hover .desc h3 {
   -webkit-transform: translate3d(0, 0, 0);
